@@ -1,4 +1,4 @@
-# Video Game Recommender 
+# Should You Buy This Game?? 
 Team: Daniel Mata, YingHsuan Lo
 
 [Project Repository](https://github.com/loriylo/video_game__review_NLP)
@@ -7,12 +7,15 @@ Team: Daniel Mata, YingHsuan Lo
 
 ## Motivation
 
-With video games being in abundance and game console technology getting better and better, video game journalists are constantly writing game reviews about the latest video games at any given moment. Sometimes, readers may just want a quick opinion on whether or not to buy a video game. They may want to see related video game reviews or maybe even the genre which they belong to. Additionally, some readers may be visually impaired or have some other form of disability that requires some audio component when browsing the web. As such, we choose to focus on text summarization, text classification in terms of video game genres, and speech synthesis in order to help facilitate video selection for buyers as well as to elevate market penetration for sellers.
-A transparent and automatic analyzing and classifying system is needed, yet few seriously consider it in academia. For future market analysis research and for more people to accurately pick the right video games, we propose a system which performs video game review text collection from IGN review website, text summarization and classification on the review, and finally performs text-to-speech. The result will be displayed on a specific website showing a game’s summary, visualized recommendation, and speech synthesis.
+With video games being in abundance and game console technology getting better and better, video game journalists are constantly writing game reviews about the latest video games at any given moment. Sometimes, readers may just want a quick opinion on whether or not to buy a video game. They may want to get the gist of how a video game journalist has described a certain video game. Additionally, some readers may be visually impaired or have some other form of disability that requires some audio component when browsing the web. Or some may just simply want to pick the game when they are doing chores, driving, or other routines-- treat a purchase choice more like an experience of listening to an audio book.
+
+As such, we choose to focus on text summarization, text classification, and speech synthesis in order to help facilitate video selection for buyers as well as to elevate market penetration for sellers. The main aspect of our project is the text classification, we would like to see if we can improve upon past work using the Steam Reviews data (more information provided in sections below). We want to provide a quick way for users to decide on whether or not to buy a video game.
+
+A transparent and automatic analyzing and classifying system is needed, yet few seriously consider it in academia. For future market analysis research and for more people to accurately pick the right video games, we propose a system which performs video game review text collection from IGN video game website, text summarization and classification on the review, and finally performs text-to-speech. The result will be incorporated showing a game’s summary, visualized recommendation, and speech synthesis.
 
 ## Significance
 
-Video games have become more and more influential in every endeavor. From school educational platforms to museum programs, video games ignite interest in many. An interesting and appropriate video game can be utilized in various ways ranging from relaxation( and de-stressing), making new friends, and even advanced topics such as reinforcement learning. As a result, a functional system that can be used to quickly assess a user’s decision on whether or not to buy a video game can be very helpful. In this design, we especially add speech synthesis as an additional component to visualization elements in order to better assist those who suffer from any visually-impairing disability. 
+Video games have become more and more influential in every endeavor. From school educational platforms to museum programs, video games ignite interest in many. An interesting and appropriate video game can be utilized in various ways ranging from relaxation( and de-stressing), making new friends, and even advanced topics such as reinforcement learning. As a result, a functional system that can be used to quickly assess a user’s decision on whether or not to buy a video game can be very helpful. In this design, we especially add speech synthesis as an additional component to visualization elements in order to better assist those who suffer from any visually-impairing disability.
 
 ## Dataset:
 ### Steam website and review dataset
